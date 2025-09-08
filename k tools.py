@@ -3,7 +3,7 @@ import requests
 from datetime import datetime, timedelta
 
 # YouTube API Key
-API_KEY = ""
+API_KEY = "AIzaSyD9LgOTkc4cVDxNa-NkImuyBfhw2nY-X0w"
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
 YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
@@ -16,13 +16,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 
 # List of broader keywords
 keywords = [
- "Affair Relationship Stories", "Reddit Update", "Reddit Relationship Advice", "Reddit Relationship", 
-"Reddit Cheating", "AITA Update", "Open Marriage", "Open Relationship", "X BF Caught", 
-"Stories Cheat", "X GF Reddit", "AskReddit Surviving Infidelity", "GurlCan Reddit", 
-"Cheating Story Actually Happened", "Cheating Story Real", "True Cheating Story", 
-"Reddit Cheating Story", "R/Surviving Infidelity", "Surviving Infidelity", 
-"Reddit Marriage", "Wife Cheated I Can't Forgive", "Reddit AP", "Exposed Wife", 
-"Cheat Exposed"
+"Inspirational success stories", "Rags to riches stories", "Entrepreneur journey stories", "Startup failure lessons", "Tech founder biographies", "Underdog sports stories", "Comeback athlete stories", "Historical biography stories", "American immigrant success", "Great inventions stories", "Space exploration stories", "Apollo program stories", "Startup case studies", "Productivity transformation stories", "FIRE movement journey", "Real estate investor stories", "Minimalism life change", "Stoicism life lessons", "Mindset shift stories", "Habit change journey", "Marathon training journey", "Navy SEAL mindset stories", "Digital nomad stories", "Veteran transition stories", "Small town to big city", "American road trip stories", "National parks adventure stories", "Appalachian Trail thru-hike", "Pacific Crest Trail journey", "Cross country cycling story", "Van life journey", "Tiny house life stories", "Farm to table stories", "Music artist come up", "Startup pivot story", "Corporate burnout to freedom", "Second chance life story",
 ]
 
 # Fetch Data Button
